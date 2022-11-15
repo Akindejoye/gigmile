@@ -1,0 +1,36 @@
+.capital {
+  width: 1437px;
+  min-height: 1539px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.capital__left {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.capital__right {
+  width: 1197px;
+  padding-left: 50px;
+  padding-right: 47px;
+}
+
+.capital__logoutBox {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  padding-left: 35.33px;
+  border: none;
+  cursor: pointer;
+}
+
+.logoutBox-icon {
+  margin-right: 14.64px;
+}
+
+.logoutBox-text {}

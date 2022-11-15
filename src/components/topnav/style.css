@@ -1,0 +1,57 @@
+.topnav {
+  margin-top: 38px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topnav-header {
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+  color: #1e1e1e;
+}
+
+.topnav-right {
+  display: flex;
+}
+
+.topnav__inputbox {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: #FAFAFA;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2), inset 0px 1px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  margin-right: 24.19px;
+}
+
+.topnav__input-img {
+  margin-left: 17.6px;
+}
+
+.topnav__input {
+  width: 85%;
+  height: 80%;
+  margin-left: 14.4px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.topnav__iconbox {
+  display: flex;
+  align-items: center;
+}
+
+.topnav__iconbox-report {
+  margin-right: 20.62px;
+}
+
+.topnav__iconbox-profile {
+  margin-left: 16px;
+  margin-right: 6.67px;
+}

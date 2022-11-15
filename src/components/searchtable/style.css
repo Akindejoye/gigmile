@@ -1,0 +1,85 @@
+.searchtable {
+  height: 43px;
+  margin-top: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.searchtable > h1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+  color: #1e1e1e;
+}
+
+.searchtable__inputbox {
+  display: flex;
+  align-items: center;
+}
+
+.searchtable__inputbox-one {
+  width: 239px;
+  height: 43px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #D9DADE;
+  border-radius: 32px;
+}
+
+.searchtable__inputbox-one > input {
+  width: 171px;
+  margin-left: 16px;
+  height: 85%;
+  border: none;
+  outline: none;
+}
+
+.searchtable__inputbox-one > input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.004em;
+  color: #a0aec0;
+}
+
+.searchtable__inputbox-one > img {
+  margin-right: 15.84px;
+  cursor: pointer;
+}
+
+.searchtable__inputbox-two {
+  position: relative;
+  width: 106px;
+}
+
+.searchtable__inputbox-two-select {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #1e1e1e;
+  width: 106px;
+  height: 43px;
+  border: 1px solid #D9DADE;
+  border-radius: 32px;
+  padding: 12px 12px 12px 20px;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.searchtable__inputbox-two > img {
+  position: absolute;
+  top: 19px;
+  right: 17.5px;
+  pointer-events: none;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+

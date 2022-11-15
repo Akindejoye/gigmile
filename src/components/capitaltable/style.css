@@ -1,0 +1,143 @@
+.capitaltable {
+  min-height: 780px;
+  border: 0.5px solid #D9DADE;
+  box-shadow: 0px 3.5px 4.5px rgba(0, 0, 0, 0.01);
+  border-radius: 4px;
+}
+
+.capitaltable__nav {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 27px;
+  list-style: none;
+}
+
+.capitaltable__nav-li {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+  padding-bottom: 10px;
+  color: #a0aec0;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.capitaltable__nav-li:hover {
+  color: #1e1e1e;
+  border-bottom: 2px solid #1db385;
+}
+
+.capitaltable__nav-li:nth-child(1) {
+  margin-right: 40px;
+}
+
+.capitaltable__nav-li:nth-child(2) {
+  margin-right: 37px;
+}
+
+.capitaltable__nav-li:nth-child(3) {
+  margin-right: 43px;
+}
+
+hr {
+  border: none;
+  height: 0.3px;
+  background-color: #D9DADE;
+  margin-top: 0.7px;
+}
+
+.capitaltable__tablebox > table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+}
+
+table thead {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+table > thead  th {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+  color: #A0AEC0;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+table > thead  th:nth-child(1) {
+  padding-left: 27px;
+  /* width: 210px; */
+}
+
+table tbody tr:not(:last-child) {
+  height: 54px;
+  margin-bottom: 25px;
+  border: 0.3px solid #D9DADE;
+}
+
+table tr:nth-child(10) {
+  border: none !important;
+}
+table tr:nth-child(1) {
+  margin-top: 25px;
+}
+
+table tr td {
+  /* border-top: 0.3px solid #D9DADE;
+  border-bottom: 0.3px solid #D9DADE; */
+  /* height: 54px; */
+}
+
+
+table tr td:nth-child(1) {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  padding-left: 27px;
+  height: 54px;
+}
+
+table tr td:nth-child(2) {
+  width: 300px;
+}
+table tr td:nth-child(3) {
+  width: 250px;
+}
+table tr td:nth-child(4) {
+}
+table tr td:nth-child(5) {
+  opacity: 0;
+  width: 70px;
+}
+table tr td:nth-child(5):hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.initial {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 160%;
+  color: #fff;
+  border-radius: 50%;
+  background: #1DB385;
+  margin-right: 15.56px;
+}
+
+.name {
+  color: blue;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #1e1e1e;
+}
