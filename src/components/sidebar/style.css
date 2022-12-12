@@ -38,6 +38,8 @@
   height: 40px;
   margin-bottom: 18.5px;
   transition: 0.3s;
+  text-decoration: none;
+  color: inherit;
 }
 
 .toggle__nav {
@@ -53,7 +55,7 @@
   border-radius: 8px;
 }
 
-.sidebar__nav:hover {
+.active {
   background: #f95d44;
   border-radius: 8px;
 }

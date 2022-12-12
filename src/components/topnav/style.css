@@ -1,5 +1,6 @@
 .topnav {
   margin-top: 38px;
+  margin-bottom: 44px;
   height: 63px;
   display: flex;
   align-items: center;
@@ -23,8 +24,9 @@
   height: 40px;
   display: flex;
   align-items: center;
-  background: #FAFAFA;
-  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2), inset 0px 1px 0px rgba(0, 0, 0, 0.02);
+  background: #fafafa;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2),
+    inset 0px 1px 0px rgba(0, 0, 0, 0.02);
   border-radius: 8px;
   margin-right: 24.19px;
 }

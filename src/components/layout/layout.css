@@ -1,0 +1,14 @@
+.layout {
+  /* max-width: 1437px;
+  min-height: 1539px; */
+  display: flex;
+  padding-right: 47px;
+}
+
+.layout__left {
+  margin-right: 50px;
+}
+
+.layout__right {
+  width: 100%;
+}

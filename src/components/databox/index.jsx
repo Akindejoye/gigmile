@@ -52,6 +52,7 @@ const Databox = () => {
           </div>
         </div>
       </div>
+
       <div className="databox__breakdown">
         <div className="databox__total-top">
           <div className="total-top">

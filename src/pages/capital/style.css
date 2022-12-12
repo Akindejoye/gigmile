@@ -1,22 +1,26 @@
 .capital {
-  width: 1437px;
+  max-width: 1437px;
   min-height: 1539px;
-  display: flex;
-  margin: 0 auto;
+  /* display: flex; */
+  /* margin: 0 auto; */
+  position: relative;
 }
 
 .capital__left {
-  width: 240px;
+  /* width: 240px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
 }
 
 .capital__right {
-  width: 1197px;
+  /* width: 100%;
   padding-left: 50px;
-  padding-right: 47px;
+  padding-right: 47px; */
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .capital__logoutBox {
@@ -33,4 +37,5 @@
   margin-right: 14.64px;
 }
 
-.logoutBox-text {}
+.logoutBox-text {
+}
